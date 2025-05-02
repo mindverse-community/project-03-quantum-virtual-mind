@@ -1,0 +1,2 @@
+# File: config.yaml
+print('Hello from qvm_prototype/simulation/config.yaml')
