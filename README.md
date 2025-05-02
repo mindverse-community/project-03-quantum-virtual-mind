@@ -20,33 +20,33 @@ It reimagines the mind not as a symbolic machine, but as a **dynamical wavefunct
 
 ```
 
-qvm\_prototype/
+qvm_prototype/
 ├── core/                  # Core logic (agentome layers, MST, quantum kernel)
-│   ├── mind\_state\_tensor.py
-│   ├── agentome\_layer.py
-│   ├── qgraph\_kernel.py
-│   ├── collapse\_scheduler.py
-│   └── introspection\_engine.py
+│   ├── mind_state_tensor.py
+│   ├── agentome_layer.py
+│   ├── qgraph_kernel.py
+│   ├── collapse_scheduler.py
+│   └── introspection_engine.py
 │
 ├── simulation/            # Configuration and simulation orchestration
-│   ├── run\_simulation.py
+│   ├── run_simulation.py
 │   └── config.yaml
 │
 ├── visualization/         # Plotting MST dynamics and agent phase evolution
-│   ├── plot\_mst.py
-│   └── plot\_agent\_dynamics.py
+│   ├── plot_mst.py
+│   └── plot_agent_dynamics.py
 │
 ├── utils/                 # Helper functions and metrics
 │   ├── helpers.py
 │   └── metrics.py
 │
 ├── notebooks/             # Interactive Jupyter notebooks
-│   ├── 00\_intro\_qvm.ipynb
-│   └── 01\_simulate\_thought\_process.ipynb
+│   ├── 00_intro_qvm.ipynb
+│   └── 01_simulate_thought_process.ipynb
 │
 ├── tests/                 # Unit tests for core components
-│   ├── test\_mst.py
-│   └── test\_graph\_kernel.py
+│   ├── test_mst.py
+│   └── test_graph_kernel.py
 │
 ├── docs/                  # Documentation and theoretical background
 │   ├── README.md
@@ -99,23 +99,7 @@ python main.py
 * Build harmonically coupled AI models with evolving intention
 * Explore the wavefunction dynamics of thought, memory, and ego
 
----
 
-## 📚 References
-
-* Sigdel, D. "Recursive Collapse Engine & Quantum Mind Framework", 2024
-* Tononi, G. “Integrated Information Theory”
-* Busemeyer & Bruza. “Quantum Models of Cognition and Decision”
-
----
-
-## 👨‍💻 Author
-
-**Dibakar Sigdel**
-Researcher in Quantum Cognitive Systems, Agentome AI, and Recursive Harmonics
-📧 \[Contact or GitHub Profile Link]
-
----
 
 > *“The mind is not a computer. It is a recursive, self-observing wavefunction dancing in harmonic feedback with itself.”*
 
